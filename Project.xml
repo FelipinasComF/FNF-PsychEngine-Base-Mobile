@@ -190,9 +190,12 @@
 	<section if="android">
 		<!-- Do whatever you want I'm tired uninstall and install everytime -->
 		<certificate path="key.keystore" password="psychengine" alias="psychport" alias-password="psychengine" unless="debug" />
-
-		<!--Target SDK-->
-		<android target-sdk-version="31" />
+                
+		<!-- Android Shit-->
+                <android permission="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+                <android target-sdk-version="29" if="android"/>
+                <android min-sdk-version="19" if="android"/>
+                ```
 
 		<config:android permission="android.permission.WAKE_LOCK" />
 		<config:android permission="android.permission.INTERNET" />
