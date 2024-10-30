@@ -17,6 +17,10 @@ same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, 
 * Karim - Second Porter
 * Moxie - Helper
 
+## Second Mobile Build Credits:
+* FNF BR - Made the Internal Audio Support
+* FelipinasComF - Just put FNF BR's code in here
+
 ### Mobile Special Thanks
 * Mihai Alexandru - Author of mobile controls and also his new storage stuff and FlxRuntimeShader is used here
 * FutureDorito - iOS Helper/Implementer
